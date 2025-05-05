@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="utf-8">
+    <!-- Design settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Author -->
+    <meta name="author" content="Lemon, Lemonish, Lemonish37, Macrohampter, macrohampter, Bread Kaczynski">
+    <!-- Description -->
+    <meta name="description" content="Olive Guardin, Bread Kaczynski, Lemon, Lemonish, cat pictures, cat memes">
+    <!-- Keywords -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, website, memes, cat memes, cat, cats, cat pictures">
+
+    <!-- Title -->
+    <title>Olive Guardin</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon2.ico">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Kolker+Brush|Roboto">
+    <style>
+        /* tab nav */
+        .tabs { display: flex; justify-content: center; background-color: (238,130,238); border: 2px solid #ccc; border-radius: 20px; margin: 5px 3; }
+        .tab { padding: 14px 20px; cursor: pointer; font-family: 'Kolker+Brush'; border: 1px solid transparent; transition: background-color 0.3s; }
+        .tab:hover { background-color: rgb(115,155,208); }
+        .active { background-color: rgb(115,155,208); border-bottom: 2px #000; }
+        /* tab content */
+        .tab-content { display: none; padding: 20px; border: 2px solid #000; border-radius: 5px; }
+        .active-content { display: block; }
+    </style>
+</head>
+<body style="background-color: violet;">
+    <!-- Main heading -->
+    <h1 style="text-align: center; font-size: 100px; font-family: Kolker Brush;">Olive Guardin</h1>
+
+    <div class="tabs"> 
+        <!-- Tab buttons -->
+        <div class="tab active" onclick="showTab('home')">Home Page</div>
+        <div class="tab" onclick="showTab('How_not_to:')">How not to:</div>
+        <div class="tab" onclick="showTab('Links_and_Shit')">Links and Shit</div>
+        <div class="tab" onclick="showTab('Cart?')">Cart?</div>
+    </div>
+
+    <div id="home" class="tab-content active-content">
+        <!-- Home Page Content -->
+        <p style="font-family: Playfair Display">Still got no idea what I'm doing. Tryna teach people how to do this, and it's working out somewhat. Know what I mean?</p>
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/y4nHeuN1850" frameborder="0" allowfullscreen></iframe>
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/caluozb2s1c" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div id="How_not_to:" class="tab-content" style="font-family: Playfair Display; ">
+        <!-- Content How not to: -->
+        <p> <b> Text Styles: </b> <br><br> "b" = <b>Bold text</b> <br> "strong" = <strong>Important text</strong> <br> "i" = <i>Italic text</i> <br> "em" = <em>Emphasized text</em> <br> "mark" = <mark>Marked text</mark> <br> "small" = <small>Smaller text</small> <br> "del" = <del>Deleted text</del> <br> "ins" = <ins>Inserted text</ins> <br> "sub" = <sub>Subscript text</sub> <br> "sup" = <sup>Superscript text</sup>" </p>
+        <hr>
+        <p> <b> Style Attributes: </b> <br><br> Use "background-color" for background color. <br> Use "color" for text colors. <br> Use "font-family" for text fonts. <br> Use "font-size" for text sizes. <br> Use "text-align" for text alignment.</p>
+        <hr>
+        <!-- explanations -->
+        <p> <b>Tag Explanations: </b> <br><br>
+        <abbr title="World Health Organization">WHO</abbr> founded in 1948. <br>
+        <address>Lemon<br>12345<br>Chicken Noodle City, KYS<br><a href="mailto:chicken@noodle.soup">Bowl.</a></address> <br>
+        <bdo dir="rtl">(oaml gniddik tsuj) I promise that this isn't how the format is supposed to be.</bdo> <br>
+        <blockquote><p>The only limit to our realization of tomorrow is our doubts of today.</p><cite>- Franklin D. Roosevelt</cite></blockquote> <br>
+        <p>As they say, <q>Actions speak louder than words.</q></p> <br>
+        <h1 style="border:2px solid Black;">This is how you make a border</h1>
+        <p> <b>Colors:</b><br>In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values. <br><br>The following three "div" elements have their background color set with RGB, HEX, and HSL values:<br><br> "rgb(255, 99, 71)"" <br> "#ff6347" <br> "hsl(9, 100%, 64%)"" <br><br> The following two "div" elements have their background color set with RGBA and HSLA values, which add an Alpha channel to the color <br>(here we have 50% transparency): <br><br>"rgba(255, 99, 71, 0.5)" <br>"hsla(9, 100%, 64%, 0.5)"<br><br> To display black, set all color parameters to 0. <br>To display white, set all color parameters to 255. <br>To display gray, set all color parameters equal.<br> <hr> 
+        <p> <b>Images:</b> <br>"img" Defines an image <br>"map" Defines an image map <br>"area" Defines a clickable area inside an image map <br>"picture"	Defines a container for multiple image resources.<br> <hr> 
+        <p> <b>Lists:</b> <br> Use the CSS list-style-type property to define the list item marker.<br> Lists can be nested. <br> List items can contain other HTML elements.<br> Use the CSS property float:left to display a list horizontally.<br><br> "ol" (Ordered List)	Defines an ordered list <br> "li" (List Item) Defines a list item<br> "dl" (Description List) 	Defines a description list<br> "dt" (Description Term)	Defines a term in a description list<br> "dd" (Define Description) Describes the term in a description list<br> <hr>
+        <!-- For legibility purposes, I changed the font so you can actually read it-->
+        <p style="font-family:Verdana"> <b>Character Entities:</b><br> Non-Breaking Space( ) = "& nbsp;" OR "& #160;"<br> Less Than(&lt); = "& lt;" OR "& #60;"<br> Greater Than(&gt); = "& gt" OR "& #62"<br> Ampersand(&amp); = "& amp" OR "& #38"<br> Double Quotation Mark(") = "& quot" "& #34"<br>Single Quotation Mark(') = "& apos" OR "& #39"<br> Cent(¢) = "& cent" OR "& #162"<br> Pound(£) = "& pound" OR "& #163"<br> Yen(¥) = "& yen" OR "& #165"<br>	Euro(€)	= "& euro" OR "& #8364"<br> Copyright(©) = "& copy" OR "& #169"<br> Registered Trademark(®) = "& reg" OR "& #174" <br> Trademark(™) = "& trade"	OR "& #8482"<br> Left Arrow(←) = "& #8592" OR "& larr"<br> Up Arrow(↑) = "& #8593" OR "& uarr"<br> Right Arrow(→) = "& #8594" OR "& rarr"<br> Down Arrow(↓) = "& #8595" OR "& darr"<br> Spades(♠) = "& #9824" OR "& spades"<br> Club(♣)	= "& #9827" OR "& clubs"<br> Hearts(♥) = "& #9829" OR "& hearts"<br> Diamonds(♦) = "& #9830" OR	"& diams"<br>
+    </div>
+
+    <div id="Links_and_Shit" class="tab-content" style="font-family: Playfair Display; ">
+        <!-- Links and Shit -->
+        <p style="font-family: Kolker Brush; font-size: 40pt"><a href="https://dashboard.blooket.com/stats" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank', 'noopener,noreferrer'); return false;">Blooket</a> <br> <a href="https://spaces.w3schools.com/space/logand/editor" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank', 'noopener,noreferrer'); return false;">Olive Editor</a> <br> <a href="https://time.is/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank', 'noopener,noreferrer'); return false;">Time</a></p> <button type="button" onclick="alert('soup')">chicken</button>
+    </div>
+
+    <div id="Cart?" class="tab-content" style="font-family: Kolker Brush">
+        <!-- Cart?-->
+        <img src="./images/Gullible.jpeg" alt="cat" width="200" height="280">
+        <img src="./images/cart.jpeg" alt="cat"> <img src="./images/cart10.jpeg" alt="cat"> <img src="./images/cart11.jpeg" alt="cat"> <img src="./images/cart12.jpeg" alt="cat"> <img src="./images/cart13.jpeg" alt="cat"> <img src="./images/cart14.jpeg" alt="cat"> <img src="./images/cart15.jpeg" alt="cat"> <img src="./images/cart16.jpeg" alt="cat"> <img src="./images/cart17.jpeg" alt="cat"> <img src="./images/cart18.jpeg" alt="cat"> <img src="./images/cart19.jpeg" alt="cat"> <img src="./images/cart20.jpeg" alt="cat"> <img src="./images/cart21.jpeg" alt="cat"> <img src="./images/cart22.jpeg" alt="cat"> <img src="./images/cart23.jpeg" alt="cat"> <img src="./images/cart24.jpeg" alt="cat"> <img src="./images/cart25.jpeg" alt="cat"> <img src="./images/cart26.jpeg" alt="cat"> <img src="./images/cart27.jpeg" alt="cat"> <img src="./images/cart28.jpeg" alt="cat"> <img src="./images/cart29.jpeg" alt="cat"> <img src="./images/cart30.jpeg" alt="cat"> <img src="./images/cart31.jpeg" alt="cat"> <img src="./images/cart32.jpeg" alt="cat"> <img src="./images/cart33.jpeg" alt="cat"> <img src="./images/cart34.jpeg" alt="cat"> <img src="./images/cart35.jpeg" alt="cat"> <img src="./images/cart36.jpeg" alt="cat"> <img src="./images/cart37.jpeg" alt="cat"> <img src="./images/cart38.jpeg" alt="cat"> <img src="./images/cart39.jpeg" alt="cat"> <img src="./images/cart40.jpeg" alt="cat"> <img src="./images/cart41.jpeg" alt="cat"> <img src="./images/cart42.jpeg" alt="cat">
+    </div>
+
+    <!-- external JavaScript file -->
+    <script src="scripts.js"></script>
+    <script>
+        // show selected tab content
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active-content'));
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active-content');
+            document.querySelector(`.tab[onclick="showTab('${tabName}')"]`).classList.add('active');
+        }
+    </script>
+</body>
+</html>
